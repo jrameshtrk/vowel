@@ -1,0 +1,7 @@
+flag=(input())
+if(flag=='a' or flag=='e' or flag=='i' or flag=='o' or flag=='u'):
+  print("Vowel")
+elif(flag=='$' or flag=='#'):
+  print("invalid")
+else:
+    print("Consonant")
